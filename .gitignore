@@ -6,6 +6,9 @@
 # $ git config --global mergetool.keepBackup false
 *.orig
 
+### LOCK FILES###
+~*.lck
+
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
 *.BASE.*
@@ -29,6 +32,7 @@
 *-backups
 *.kicad_prl
 *.sch-bak
+*.bak
 *~
 _autosave-*
 *.tmp
