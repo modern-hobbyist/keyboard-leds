@@ -11120,7 +11120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ILI9341:TFT-320x240"
+		(property "Footprint" "ModHob:ILI9341_2.8in_Touch"
 			(at 189.23 175.26 90)
 			(effects
 				(font
