@@ -3805,7 +3805,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U?"
-				(at 31.496 22.606 0)
+				(at 21.336 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3814,7 +3814,7 @@
 				)
 			)
 			(property "Value" "TFT_320x240"
-				(at 31.496 20.066 0)
+				(at 21.336 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3823,7 +3823,7 @@
 				)
 			)
 			(property "Footprint" "z_Devices:TFT-320x240"
-				(at 31.496 17.526 0)
+				(at 21.336 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3851,7 +3851,7 @@
 			)
 			(symbol "TFT_320x240_SD_0_0"
 				(text "TFT  320x240"
-					(at 5.842 25.4 0)
+					(at 0 27.178 0)
 					(effects
 						(font
 							(size 2.9972 2.9972)
@@ -3862,8 +3862,30 @@
 			)
 			(symbol "TFT_320x240_SD_0_1"
 				(rectangle
-					(start -19.05 45.72)
-					(end 29.21 41.91)
+					(start -19.05 49.53)
+					(end -17.78 41.91)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -19.05 49.53)
+					(end 19.05 48.6918)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -19.05 43.18)
+					(end 19.05 41.91)
 					(stroke
 						(width 0)
 						(type default)
@@ -3874,7 +3896,7 @@
 				)
 				(rectangle
 					(start -19.05 41.91)
-					(end 29.21 7.62)
+					(end 19.05 7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -3885,7 +3907,7 @@
 				)
 				(rectangle
 					(start -19.05 8.89)
-					(end -17.78 0)
+					(end -17.78 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -3896,7 +3918,7 @@
 				)
 				(rectangle
 					(start -19.05 8.89)
-					(end 29.21 7.62)
+					(end 19.05 7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -3906,19 +3928,8 @@
 					)
 				)
 				(rectangle
-					(start -19.05 7.62)
-					(end 29.21 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -19.05 0.8382)
-					(end 29.21 0)
+					(start -19.05 1.016)
+					(end 19.05 0.1778)
 					(stroke
 						(width 0)
 						(type default)
@@ -3928,8 +3939,19 @@
 					)
 				)
 				(rectangle
-					(start 27.94 8.89)
-					(end 29.21 0)
+					(start 17.78 49.53)
+					(end 19.05 41.91)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 17.78 8.89)
+					(end 19.05 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -4031,6 +4053,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at -3.81 52.07 270)
+					(length 2.54)
+					(name "SD_CS"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at -3.81 -2.54 90)
 					(length 2.54)
 					(name "MOSI"
@@ -4041,6 +4081,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -1.27 52.07 270)
+					(length 2.54)
+					(name "SD_MOSI"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 0.7874 0.7874)
@@ -4066,6 +4124,24 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 1.27 52.07 270)
+					(length 2.54)
+					(name "SD_MISO"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 1.27 -2.54 90)
 					(length 2.54)
@@ -4077,6 +4153,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 52.07 270)
+					(length 2.54)
+					(name "SD_SCK"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 0.7874 0.7874)
@@ -4185,78 +4279,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 0.7874 0.7874)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 19.05 -2.54 90)
-					(length 2.54)
-					(name "SD_SCK"
-						(effects
-							(font
-								(size 0.7874 0.7874)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 0.7874 0.7874)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -2.54 90)
-					(length 2.54)
-					(name "SD_MISO"
-						(effects
-							(font
-								(size 0.7874 0.7874)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 0.7874 0.7874)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 24.13 -2.54 90)
-					(length 2.54)
-					(name "SD_MOSI"
-						(effects
-							(font
-								(size 0.7874 0.7874)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 0.7874 0.7874)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 26.67 -2.54 90)
-					(length 2.54)
-					(name "SD_CS"
-						(effects
-							(font
-								(size 0.7874 0.7874)
-							)
-						)
-					)
-					(number "18"
 						(effects
 							(font
 								(size 0.7874 0.7874)
@@ -8752,16 +8774,16 @@
 	)
 	(global_label "LCD_SD_CS"
 		(shape input)
-		(at 214.63 170.18 0)
+		(at 160.02 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "23d85995-8cda-40fb-923d-b9d7b4afa394")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 170.18 0)
+			(at 160.02 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8838,22 +8860,22 @@
 	)
 	(global_label "LCD_MISO"
 		(shape input)
-		(at 214.63 175.26 0)
+		(at 160.02 195.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "26994dbf-c20c-4092-aa1a-57879afbb96b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.7471 175.26 0)
+			(at 147.9029 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8970,22 +8992,22 @@
 	)
 	(global_label "LCD_SCK"
 		(shape input)
-		(at 214.63 177.8 0)
+		(at 160.02 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "42495248-f4dc-4c6b-869d-dc60c2363972")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.9004 177.8 0)
+			(at 148.7496 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9812,22 +9834,22 @@
 	)
 	(global_label "LCD_MOSI"
 		(shape input)
-		(at 214.63 172.72 0)
+		(at 160.02 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b97f4fe3-16e1-459d-94b1-3b12e9c18e44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.7471 172.72 0)
+			(at 147.9029 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
