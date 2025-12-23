@@ -15380,7 +15380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "ModHob:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 302.26 119.38 0)
 			(effects
 				(font
@@ -16721,7 +16721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "ModHob:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 302.26 48.26 0)
 			(effects
 				(font
