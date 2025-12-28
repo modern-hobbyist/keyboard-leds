@@ -6435,7 +6435,7 @@
 		(uuid "fb86563a-bfd4-4413-bea3-5f2bf4a5b92c")
 	)
 	(junction
-		(at 40.64 204.47)
+		(at 24.13 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0078d29b-5a20-4315-b760-122971e47550")
@@ -6453,7 +6453,13 @@
 		(uuid "02f64aed-05a5-4ca3-a5ec-0e9b9f052046")
 	)
 	(junction
-		(at 40.64 209.55)
+		(at 33.02 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09372486-c435-433f-a6af-149e239a1414")
+	)
+	(junction
+		(at 24.13 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c146df2-6eee-43dd-a7fb-7f3726b896fc")
@@ -6481,6 +6487,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1540d9df-c68b-4f2d-a64e-450f39e14cd7")
+	)
+	(junction
+		(at 41.91 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17b97d59-b8f9-443a-903d-99543a003739")
 	)
 	(junction
 		(at 208.28 138.43)
@@ -6571,6 +6583,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f54796-634e-434d-afb2-098fabe71655")
+	)
+	(junction
+		(at 41.91 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b24d801-daf7-454d-b718-b04cb85b6894")
 	)
 	(junction
 		(at 116.205 48.26)
@@ -6691,6 +6709,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b614d635-d370-4c62-8509-8453b2b2695b")
+	)
+	(junction
+		(at 33.02 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7d49638-4adf-4bda-8b6d-804659828cb4")
 	)
 	(junction
 		(at 210.82 135.89)
@@ -7086,6 +7110,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 209.55) (xy 41.91 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a0ada7-e212-4b46-acc8-f82aa0ece4c0")
+	)
+	(wire
+		(pts
 			(xy 350.52 220.98) (xy 356.235 220.98)
 		)
 		(stroke
@@ -7256,7 +7290,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 209.55) (xy 50.8 209.55)
+			(xy 24.13 209.55) (xy 33.02 209.55)
 		)
 		(stroke
 			(width 0)
@@ -7536,6 +7570,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 209.55) (xy 50.8 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630eb7b8-25c9-4ff8-8b10-12625876b841")
+	)
+	(wire
+		(pts
 			(xy 327.025 39.37) (xy 327.025 38.1)
 		)
 		(stroke
@@ -7593,6 +7637,16 @@
 			(type default)
 		)
 		(uuid "6e1d16f0-5e38-4936-a6ba-3ba321455ee6")
+	)
+	(wire
+		(pts
+			(xy 33.02 204.47) (xy 41.91 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec27669-082c-4068-b5d9-9c1870b5901b")
 	)
 	(wire
 		(pts
@@ -7656,7 +7710,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 204.47) (xy 50.8 204.47)
+			(xy 24.13 204.47) (xy 33.02 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7743,6 +7797,16 @@
 			(type default)
 		)
 		(uuid "8457bd16-7817-4f25-8f13-cba18609f9a5")
+	)
+	(wire
+		(pts
+			(xy 41.91 204.47) (xy 50.8 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ee0c13-9c4a-4c43-88b5-9cc166a61a52")
 	)
 	(wire
 		(pts
@@ -7896,7 +7960,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 212.09) (xy 40.64 209.55)
+			(xy 24.13 212.09) (xy 24.13 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8526,7 +8590,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 204.47) (xy 40.64 204.47)
+			(xy 20.32 204.47) (xy 24.13 204.47)
 		)
 		(stroke
 			(width 0)
@@ -12146,7 +12210,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 36.83 204.47 0)
+		(at 20.32 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12155,7 +12219,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a3a7fb6-fb06-45ec-81c1-e5c74688f5af")
 		(property "Reference" "#PWR042"
-			(at 36.83 208.28 0)
+			(at 20.32 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12164,7 +12228,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 36.83 199.39 0)
+			(at 20.32 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,7 +12236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 204.47 0)
+			(at 20.32 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12181,7 +12245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 204.47 0)
+			(at 20.32 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12190,7 +12254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 204.47 0)
+			(at 20.32 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12205,6 +12269,75 @@
 			(project "keyboard-leds"
 				(path "/581083f2-de44-4398-88e5-c2c4bedbc4f3"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 33.02 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3baffc1b-5b82-465f-a600-45af4a4f0a50")
+		(property "Reference" "C19"
+			(at 35.56 205.7462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330u"
+			(at 35.56 208.2862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+			(at 33.02 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ad77d61-023e-48f3-8823-763b15ca1f94")
+		)
+		(pin "2"
+			(uuid "d39cc953-d96a-406b-9270-9918fecb57ae")
+		)
+		(instances
+			(project "keyboard-leds"
+				(path "/581083f2-de44-4398-88e5-c2c4bedbc4f3"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -12278,7 +12411,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 212.09 0)
+		(at 24.13 212.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12287,7 +12420,7 @@
 		(dnp no)
 		(uuid "47161794-8d72-45a3-88ce-dcd8507354c3")
 		(property "Reference" "#PWR034"
-			(at 40.64 218.44 0)
+			(at 24.13 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12296,7 +12429,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 216.535 0)
+			(at 24.13 216.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12304,7 +12437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 212.09 0)
+			(at 24.13 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +12446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 212.09 0)
+			(at 24.13 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12322,7 +12455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 212.09 0)
+			(at 24.13 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12343,7 +12476,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 40.64 207.01 0)
+		(at 24.13 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12352,7 +12485,7 @@
 		(fields_autoplaced yes)
 		(uuid "492e7c2f-bc2b-4de1-8a81-215fa2347b9e")
 		(property "Reference" "C1"
-			(at 43.18 205.7462 0)
+			(at 26.67 205.7462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12360,8 +12493,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
-			(at 43.18 208.2862 0)
+		(property "Value" "330u"
+			(at 26.67 208.2862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12369,8 +12502,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 40.64 207.01 0)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+			(at 24.13 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 207.01 0)
+			(at 24.13 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12388,7 +12521,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 207.01 0)
+			(at 24.13 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16869,6 +17002,75 @@
 			(project "keyboard-leds"
 				(path "/581083f2-de44-4398-88e5-c2c4bedbc4f3"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 41.91 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1c1096e-47bc-42eb-a89c-9c4d87ee6b90")
+		(property "Reference" "C20"
+			(at 44.45 205.7462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330u"
+			(at 44.45 208.2862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+			(at 41.91 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9452317f-6e4e-4e61-88a2-fd9785f261a8")
+		)
+		(pin "2"
+			(uuid "28f627a7-4459-4371-a26e-30ce4bb9b943")
+		)
+		(instances
+			(project "keyboard-leds"
+				(path "/581083f2-de44-4398-88e5-c2c4bedbc4f3"
+					(reference "C20")
 					(unit 1)
 				)
 			)

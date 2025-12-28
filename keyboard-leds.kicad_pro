@@ -54,11 +54,11 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|173590000|65029824|2d508146-6ed4-47d8-8d71-c79e59805edf|8a88470b-768a-46eb-8b28-680282a29b93",
+          "silk_edge_clearance|88234000|77721263|2d508146-6ed4-47d8-8d71-c79e59805edf|8a88470b-768a-46eb-8b28-680282a29b93",
           ""
         ],
         [
-          "silk_edge_clearance|183710000|65029824|2d508146-6ed4-47d8-8d71-c79e59805edf|4d3c679a-5dcb-46c1-9383-a30cefd029cc",
+          "silk_edge_clearance|98354000|77721263|2d508146-6ed4-47d8-8d71-c79e59805edf|4d3c679a-5dcb-46c1-9383-a30cefd029cc",
           ""
         ]
       ],
