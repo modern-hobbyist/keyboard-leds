@@ -60,8 +60,6 @@ Exact feature set is still evolving — the focus right now is getting the hardw
 
 ## 📌 GPIO Pin Map
 
-Derived from the KiCad schematic (`keyboard-leds.kicad_sch`):
-
 ### SPI Bus — ILI9341 Display + XPT2046 Touch (shared)
 | GPIO | Net | Function |
 |------|-----|----------|
