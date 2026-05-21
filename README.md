@@ -58,16 +58,59 @@ Exact feature set is still evolving — the focus right now is getting the hardw
 
 ---
 
-## 🧠 Firmware (Early Stage)
+## 📌 GPIO Pin Map
 
-Planned firmware responsibilities include:
-- USB MIDI parsing
-- LED animation engine
-- Brightness limiting based on detected power source
-- Touch input handling
-- LCD UI rendering
+Derived from the KiCad schematic (`keyboard-leds.kicad_sch`):
 
-Implementation details are still in flux, and this repo currently prioritizes **hardware bring-up and validation**.
+### SPI Bus — ILI9341 Display + XPT2046 Touch (shared)
+| GPIO | Net | Function |
+|------|-----|----------|
+| 16 | LCD_MISO | SPI MISO |
+| 18 | LCD_SCK | SPI clock |
+| 19 | LCD_MOSI | SPI MOSI |
+| 17 | LCD_CS | ILI9341 chip select |
+| 20 | LCD_DC | ILI9341 data/command |
+| 21 | LCD_RST | ILI9341 reset |
+| 22 | LCD_BL_PWM | Backlight PWM |
+| 13 | LCD_T_CS | XPT2046 touch chip select |
+| 12 | LCD_T_IRQ | XPT2046 touch interrupt |
+| 14 | LCD_SD_CS | SD card chip select (LCD module) |
+
+### I2C Bus — Power Management ICs
+| GPIO | Net | Function |
+|------|-----|----------|
+| 4 | SDA | I2C data (TUSB320) |
+| 5 | SCL | I2C clock (TUSB320) |
+
+### LEDs & Power Control
+| GPIO | Net | Function |
+|------|-----|----------|
+| 6 | RGB3.3 | SK6812 data → level shifter → 5 V strip |
+| 3 | DIM_DATA | TPS2121 dimming/current limit control |
+| 8 | POWER_INT | Interrupt from power management IC |
+
+### USB
+| Signal | Function |
+|--------|----------|
+| USB D+ / D− | Data USB-C — MIDI host + firmware flashing |
+
+### QSPI Flash
+Managed automatically by MicroPython. Connected to the W25Q128JVS via the RP2040's dedicated QSPI pins (not accessible as general GPIO).
+
+---
+
+## 🧠 Firmware
+
+MicroPython firmware is included in the `firmware/` directory. See [`firmware/README.md`](firmware/README.md) for full setup and flashing instructions.
+
+**Features:**
+- USB MIDI host — keyboard plugs directly into the data USB-C port
+- SK6812 LED animations: velocity, rainbow, sustain, single color, gradient
+- ILI9341 touchscreen UI with scrollable settings menu
+- Persistent settings saved to flash (brightness, animation mode, MIDI channel, LED count, etc.)
+- Brightness limiting via TPS2121 `DIM_DATA` line based on available power
+
+**Requirements:** MicroPython ≥ 1.24 for RP2040 with `usb.host` support.
 
 ---
 
